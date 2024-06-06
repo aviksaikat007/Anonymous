@@ -1,6 +1,15 @@
 #!/usr/bin/env python
 
-import optparse, os, re, socket, threading, time, urllib, urllib2, urlparse
+import optparse
+import os
+import re
+import socket
+import threading
+import time
+import urllib
+
+import urllib2
+import urlparse
 
 NAME        = "KillApachePy (Range Header DoS CVE-2011-3192)"
 VERSION     = "0.1d"

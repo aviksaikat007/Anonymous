@@ -30,9 +30,15 @@
 #########################THE WORLD WIDE WEB ATTACK###########++++##############
 
 
-from multiprocessing import Process, Manager, Pool
-import urlparse, ssl
-import sys, getopt, random, time, os
+import getopt
+import os
+import random
+import ssl
+import sys
+import time
+from multiprocessing import Manager, Pool, Process
+
+import urlparse
 
 # Python version-specific 
 if  sys.version_info < (3,0):

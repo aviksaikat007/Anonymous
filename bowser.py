@@ -1,18 +1,18 @@
 #!/usr/bin/python
 #b0wS3rDdos.py(Slow GET request resource Hog (skidded a lot of this from Asunder)
 #Normal Execution: ./b0wS3rDdos.py -T -t www.site.com -p 80 [-p=port -t=target -r threads(65000 default) -T=tor]
-import os
-import re
-import time
-import sys
-import random
-import math
 import getopt
-import socks
+import math
+import os
+import random
+import re
 import string
-import terminal
-
+import sys
+import time
 from threading import Thread
+
+import socks
+import terminal
 
 global stop_now
 global term

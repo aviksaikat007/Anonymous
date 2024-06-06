@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 # coding: utf-8
 # coding: latin-1
-import urllib2
-import sys
-import threading
 import random
 import re
+import sys
+import threading
+
+import urllib2
 
 #global params                                                                                       
 url=''                                                                                              

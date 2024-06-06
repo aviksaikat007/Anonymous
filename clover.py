@@ -1,11 +1,12 @@
 #CLOVERDOSER
 #!/usr/bin/python
-import sys
-import socket
-import threading
-import time
 import os
 import re
+import socket
+import sys
+import threading
+import time
+
 Lock = threading.Lock()
 def main():
 		try:

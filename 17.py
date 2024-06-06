@@ -2,12 +2,13 @@
 
 #0x0a/0x3a/0x6a/0x2a
 
-import sys
-import socket
-import time
 import getopt
 import re
+import socket
+import sys
+import time
 from threading import Thread
+
 
 class MyThread(Thread,):
     def __init__(self,SITE, DOS_TYPE):

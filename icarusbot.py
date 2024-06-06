@@ -7,47 +7,44 @@
 #Product: HK
 #Anonymous V9.0 By OpIcarus
 #___________ V9.0 ANONYMOUS
-import random
-import socket
-import threading
-import time
 import datetime
-import urllib2
-import urllib
-import re
-import sys
 import optparse
 import os
-import urlparse		
+import random
+import re
+import socket
 import string
-import random
-import socket
-import time
-import random
-import random
-import socket
+import sys
 import threading
-import datetime
-import random, socket, threading, time, datetime, urllib2, urllib, re, sys, optparse, os, urlparse
+import time
+import urllib
+
+import urllib2
+import urlparse
+
 global term
-from threading import Thread	
-
-from multiprocessing import Process, Manager
-import urlparse, ssl
-import sys, getopt, random, time
-
 import atexit
+import getopt
+import random
+import ssl
+import sys
+import time
 from gzip import GzipFile
-from threading import Lock
 from logging import getLogger
+from multiprocessing import Manager, Process
+from threading import Lock, Thread
+from urllib import quote, urlencode
+
+import cookielib
+import urllib2
+import urlparse
 from cStringIO import StringIO
 from httplib import HTTPMessage
-from urllib import urlencode, quote
- 
-import urllib2
-import cookielib
+
 cookielib.debug = lambda *a: None
 from socket import setdefaulttimeout
+
+
 class synFlood(threading.Thread):
     def __init__(self, ip, port, packets):
         self.ip      = ip

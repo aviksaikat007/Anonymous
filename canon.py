@@ -1,10 +1,11 @@
 #code by Anonymous
 #Name code : canon.py ver4
-import urllib2
+import random
+import re
 import sys
 import threading
-import random 
-import re
+
+import urllib2
 
 #global params
 url=''

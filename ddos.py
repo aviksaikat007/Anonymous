@@ -1,10 +1,10 @@
  
-import time
-import socket
 import os
-import sys
+import socket
 import string
- 
+import sys
+import time
+
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
  
 def restart_program():
